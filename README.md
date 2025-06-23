@@ -47,9 +47,9 @@
             </ul>
         </nav>
     </header>
+<p>Hello! I am Rozhan Ghafari, a computer science student at Yazd University. I am interested in technology and programming and am in my second year of study. I am eager to learn and gain new experiences in the field of information technology and software development.</p>
     <main>
         <p>Github page</p>
     </main>
-    
 </body>
 </html>
