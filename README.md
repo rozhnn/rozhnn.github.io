@@ -48,7 +48,8 @@
         </nav>
     </header>
 <p>
-    Hello! I am Rozhan Ghafari, a computer science student at Yazd University. I am interested in technology and programming and am in my second year of study. I am eager to learn and gain new experiences in the field of information technology and software development.</p>
+    Hello! I am Rozhan Ghafari, a computer science student at Yazd University. I am interested in technology and programming and am in my second year of study. I am eager to learn and gain new experiences in the field of information technology and software development.
+My goal in participating on GitHub is continuous learning, sharing knowledge, and collaborating with other developers. I am looking for interesting and challenging projects where I can contribute and benefit from the experiences of others. Additionally, I want to be recognized as a better developer and help the software community. By collaborating on these projects, I not only enhance my skills but also contribute to the growth and progress of others.</p>
     <main>
         <p>Github page</p>
     </main>
