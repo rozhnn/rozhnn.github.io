@@ -98,7 +98,7 @@
 
         <img src="aks.jpg" alt="Rozhan Ghafari">
 
-        <p><strong>Welcome to my GitHub page!</strong> </p>
+        <p><strong>Welcome to my GitHub page</strong> </p>
     </main>
 
     <footer>
