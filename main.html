@@ -83,6 +83,7 @@
                 <li><a href="./main.html">Home</a></li>
                 <li><a href="./introduction.html">Introduction</a></li>
                 <li><a href="./book.html">Books</a></li>
+<li><a href="./movie.html">Movie</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
