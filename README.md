@@ -3,42 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github Page</title>
+    <title>Rozhan Ghafari - GitHub Page</title>
     <style>
         body {
-            background-color: #f0f8ff; 
-            font-family: Arial, sans-serif; 
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px; 
+            padding: 0;
         }
+
         header {
             background-color: #84b3b5;
             color: white;
-            padding: 10px;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #6a9a9b;
             text-align: center;
         }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
+
         nav ul li {
-            display: inline;
-            margin-right: 15px;
+            display: inline-block;
+            margin: 0 15px;
         }
+
         nav ul li a {
             color: white;
             text-decoration: none;
+            padding: 10px;
+            display: inline-block;
         }
+
+        nav ul li a:hover {
+            background-color: #567f81;
+            border-radius: 5px;
+        }
+
         main {
-            padding: 20px;
+            padding: 40px 20px;
+            text-align: center;
         }
+
         p {
-            font-size: 18px; 
-            color: #333; 
+            font-size: 18px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+            line-height: 1.6;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            margin-top: 30px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #84b3b5;
+            color: white;
+            padding: 10px;
+            font-size: 14px;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
+
     <header>
         <h1>Welcome</h1>
         <nav>
@@ -50,10 +87,21 @@
             </ul>
         </nav>
     </header>
-    <p>Hello! I am Rozhan Ghafari, a computer science student at Yazd University. I am interested in technology and programming and am in my second year of study. I am eager to learn and gain new experiences in the field of information technology and software development.
-    My goal in participating on GitHub is continuous learning, sharing knowledge, and collaborating with other developers. I am looking for interesting and challenging projects where I can contribute and benefit from the experiences of others. Additionally, I want to be recognized as a better developer and help the software community. By collaborating on these projects, I not only enhance my skills but also contribute to the growth and progress of others.</p>
+
     <main>
-        <p>Github page</p>
+        <p>Hello! I'm <strong>Rozhan Ghafari</strong>, a second-year Computer Science student at Yazd University. I have a deep passion for technology, programming, and creative problem-solving. My academic journey so far has strengthened my curiosity about how software can impact and improve lives, and I'm always eager to learn more and push my boundaries.</p>
+
+        <p>My goal in joining GitHub is to be part of a global community of developers—learning continuously, sharing what I know, and collaborating on meaningful projects. I’m especially interested in open-source development, software engineering, and artificial intelligence. I believe that working with others not only improves my technical skills but also fosters teamwork, creativity, and growth for everyone involved.</p>
+
+        <p>I’m actively looking for interesting, challenging, and impactful projects to contribute to. Whether it's fixing bugs, writing documentation, or developing features, I see every opportunity as a step toward becoming a better developer. I hope to build a strong presence in the developer community and play a small role in building tools and solutions that make a difference.</p>
+
+        <img src="aks.jpg" alt="Rozhan Ghafari">
+
+        <p><strong>Welcome to my GitHub page!</strong> </p>
     </main>
+
+    <footer>
+    </footer>
+
 </body>
 </html>
