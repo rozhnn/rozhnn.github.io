@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>About Me - Rozhan Ghafari</title>
     <style>
         body {
             background-color: #f0f8ff;
@@ -11,71 +11,113 @@
             margin: 0;
             padding: 0;
         }
+
         header {
             background-color: #84b3b5;
             color: white;
+            text-align: center;
             padding: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #6a9a9b;
             text-align: center;
         }
-        h1 {
-            margin: 0;
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
         }
-        a {
+
+        nav ul li a {
             color: white;
             text-decoration: none;
-            padding: 10px 15px;
-            background-color: #84b3b5;
-            border-radius: 5px;
-            margin: 20px;
+            padding: 10px;
             display: inline-block;
         }
-        a:hover {
-            background-color: #84b3b5;
+
+        nav ul li a:hover {
+            background-color: #567f81;
+            border-radius: 5px;
         }
+
         section {
-            margin: 20px;
+            padding: 30px 20px;
+            max-width: 900px;
+            margin: auto;
         }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        th, td {
-            border: 1px solid #84b3b5;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #84b3b5;
-        }
+
         p {
             font-size: 18px;
             color: #333;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        th, td {
+            border: 1px solid #84b3b5;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #84b3b5;
+            color: white;
         }
     </style>
 </head>
 <body>
+
     <header>
         <h1>About Me</h1>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="book.html">Books</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+
     <section>
-        <p>This page contains information about me.</p>
+        <p>
+            As a Computer Science student, I am constantly seeking new opportunities to grow my knowledge and improve my skills in software development. I enjoy exploring the logic behind code and how technology shapes the world around us.
+        </p>
+
+        <p>
+            My current focus is on learning programming languages such as C++ and Python, while also building a solid understanding of computer networks and system fundamentals. I believe that learning by doing is the best approach, so I regularly work on small projects and challenges to strengthen what I learn.
+        </p>
+
+        <p>
+            I am passionate about continuous learning, problem-solving, and working collaboratively with others. I hope to contribute to meaningful software projects and become part of a vibrant developer community where knowledge is shared and ideas are transformed into real solutions.
+        </p>
+
         <table>
             <tr>
                 <th>Name</th>
                 <th>Age</th>
-                <th>Occupation</th>
+                <th>University</th>
+                <th>Major</th>
             </tr>
             <tr>
-                <td>Rozhan</td>
+                <td>Rozhan Ghafari</td>
                 <td>19</td>
-                <td>Student</td>
+                <td>Yazd University</td>
+                <td>Computer Science</td>
             </tr>
         </table>
-<p>
-I am currently studying the programming languages C++ and Python, and I would like to learn other programming languages as well. Additionally, I am interested in studying networking. </p>
-<a href="main.html">Back to Main Page</a>
-        <table>
     </section>
+
 </body>
 </html>
